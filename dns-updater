@@ -1,0 +1,7 @@
+#!/bin/bash
+for (( ; ; ))
+do
+service dynuiuc restart
+echo url="https://www.duckdns.org/update?domains=x00sv&token=6b9aa886-5d93-4752-baf5-0a3609e84f38&ip=" | curl -k -K -
+sleep 60
+done

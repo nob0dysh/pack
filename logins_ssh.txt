@@ -1,0 +1,20 @@
+leandro:leandro:200.131.223.218:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8:Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz:32043 244 1934 272 29863 31034:8-->3
+daniel:daniel:150.164.33.41:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_5.3:Intel(R) Xeon(R) Bronze 3106 CPU @:7372 6698 674 4 61 390:8-->3
+andre:andre:200.131.223.218:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8:Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz:32043 240 1919 288 29883 31022:8-->6
+leandro:leandro:200.131.223.218:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8:Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz:32043 242 1917 288 29883 31020:8-->1
+aluno:aluno:200.133.196.4:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_8.0:Intel(R) Xeon(R) CPU E5-2650 v2 @:3780 268 2904 72 607 3217:4-->4
+daniel:daniel:150.164.33.41:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_5.3:Intel(R) Xeon(R) Bronze 3106 CPU @:7372 7125 247 20 497 534:8-->13
+
+
+
+
+
+ec2-user:ec2-user:34.220.190.177:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.4:Intel(R) Xeon(R) CPU E5-2686 v4 @:7819 1628 4369 64 1821 5830:2-->1
+ec2-user:ec2-user:13.58.181.15:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.4:Intel(R) Xeon(R) CPU E5-2676 v3 @:985 463 522 0 78 255:1-->1
+ubuntu:ubuntu:18.221.249.6:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8:Intel(R) Xeon(R) CPU E5-2676 v3 @:990 225 156 12 608 550:1-->1
+ubuntu:ubuntu:3.15.19.229:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8:Intel(R) Xeon(R) CPU E5-2676 v3 @:990 77 141 11 772 689:1-->1
+vsftp:vsftp:142.4.207.155:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.2p2 Ubuntu-4:Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz:2000 1038 736 26 225 864:1-->7
+git:git:51.68.126.44:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3:Intel Core Processor (Haswell, no TSX):1952 566 96 33 1289 1165:1-->25
+root:proxmox:54.36.186.24:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.4p1 Debian-10+deb9u6:Common KVM processor   :2004 158 1237 40 608 1662:2-->37
+root:root12345:54.38.225.67:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3:Intel(R) Xeon(R) CPU E5-1630 v4 @:1993 245 1264 6 484 1590:1-->42
+root:password:51.83.41.15:UNCHANGED:22:Linux:x86_64:SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8:Intel Core Processor (Haswell, no TSX):1952 1173 106 46 672 548:1-->47

